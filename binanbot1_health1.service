@@ -1,0 +1,8 @@
+[Unit]
+Description=binance health check 1
+
+[Service]
+ExecStart=/bin/bash -c 'cd /home/hoang/binan_tradespot && python3 _health.py'
+
+[Install]
+WantedBy=multi-user.target
