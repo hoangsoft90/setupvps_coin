@@ -1,0 +1,8 @@
+[Unit]
+Description=binance health check
+
+[Service]
+ExecStart=/home/hoang/binan_tradespot/_health.sh
+
+[Install]
+WantedBy=multi-user.target
