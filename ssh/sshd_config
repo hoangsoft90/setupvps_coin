@@ -1,0 +1,35 @@
+Port 22
+
+AddressFamily any
+
+ListenAddress 0.0.0.0
+
+PermitRootLogin yes
+
+PubkeyAuthentication yes
+
+PasswordAuthentication yes
+
+PermitEmptyPasswords no
+PermitUserEnvironment no
+ChallengeResponseAuthentication no
+KerberosAuthentication no
+GSSAPIAuthentication no
+UsePAM yes
+
+AllowAgentForwarding no
+AllowTcpForwarding no
+PermitTunnel no
+DebianBanner no
+
+X11Forwarding no
+
+PrintMotd no
+
+AcceptEnv LANG LC_*
+
+#Subsystem       sftp    /usr/lib/openssh/sftp-server
+
+MaxAuthTries 3
+
+LoginGraceTime 20
