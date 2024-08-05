@@ -1,0 +1,8 @@
+[Unit]
+Description=binance socket
+
+[Service]
+ExecStart=/home/hoang/binan_tradespot/_run_sc1.sh
+
+[Install]
+WantedBy=multi-user.target
