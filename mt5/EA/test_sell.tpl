@@ -62,8 +62,8 @@ stops_color=255
 windows_total=1
 
 <expert>
-name=logic6_sell
-path=Experts\MyEA\logic6_sell.ex5
+name=logic7_sell
+path=Experts\MyEA\logic7_sell.ex5
 expertmode=5
 <inputs>
 tele_token=
